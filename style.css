@@ -1,0 +1,78 @@
+body {
+    background-image: url('photo studio.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.nav{
+width: 100vw;
+height: 20vh;
+background-color: rgb(10, 14, 10);
+}
+
+.nav .logo img{
+width: 150px;
+height: 18vh;
+margin: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav .nav-links ul{
+    list-style-type: none;
+margin-left: 20px;
+}
+
+.nav .nav-links ul li{
+ display: inline-flex;
+ margin-left: 10px;
+padding-right: 30px;
+}
+.nav .nav-links ul li a{
+text-decoration: solid;
+font-size: 30px;
+color: purple;
+}
+
+.about .subheading h4{
+font: size 1.5em; ;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+font-weight: 200;
+}
+.about p{
+background-color: rgb(211, 199, 184);}
+
+section{ 
+background-color: aliceblue;}
+
+
+
+section .sub-heading-2 .card-1{
+    background-color: rgb(10, 243, 29);
+    width: 20%;
+    height: 90%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    section .sub-heading-2 .card-2{
+background-color: rgb(10, 243, 29);
+width: 20%;
+height: 90%;
+text-align: justify; 
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+section .sub-heading-2 .card-3{
+background-color: rgb(10, 243, 29)}
+
+
+
